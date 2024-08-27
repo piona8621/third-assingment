@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>third assignment</title>
+    <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+   
+  <!-- tailwind  -->
+ <script src="https://cdn.tailwindcss.com"></script>
+ <!-- daisy ui -->
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+ <!-- font awsome -->
+ <script src="https://kit.fontawesome.com/305b3a81e4.js" crossorigin="anonymous"></script>
+
+ <style>
+  .manrope {
+  font-family: "Manrope"}
+ </style>
+
+</head>
+<body class="manrope">
+
+  <!-- header section -->
+   <header>
+    <nav class="w-11/12 mx-auto">
+      <div class="navbar">
+        <div class="navbar-start">
+          
+        
+          <a class="btn btn-ghost text-[32px] font-[800]"><i class="fa-solid fa-arrow-right -rotate-45 rounded-3xl bg-[#ABEF5F] px-2 py-2"></i>Rinterio</a> 
+          
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-xl font-[400]">
+            <li><a class="text-[#303030] font-bold">Home</a></li>
+              <li><a class="text-[#737373]">Services</a></li>
+              <li><a class="text-[#737373]">Portfolio</a></li>
+              <li><a class="text-[#737373]">Blogs</a></li>
+              <li><a class="text-[#737373]">Contact Us</a></li>
+              
+          </ul>
+        </div>
+        <div class="navbar-end space-x-10 ">
+
+          <button class="hidden md:block">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button class="hidden md:block">
+          <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+
+          <button class="btn bg-[#ABEF5F] border-none hidden md:block px-2 py-2 pl-2">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-3xl px-2 py-2 text-white"></i></button>
+
+            <!-- menu section -->
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 ">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+              <li><i class="fa-solid fa-magnifying-glass"></i></li>
+               <li><i class="fa-solid fa-cart-shopping"></i></li>
+               <a class="btn bg-[#ABEF5F] border-none ">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-3xl  text-white"></i></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- banner section -->
+    <div class="hero bg- container mx-auto">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <img src="assets/banner.png" alt="">
+          <h1 class="text-5xl font-bold ">A barn house of this design has a striking appearance</h1>
+          <p class="py-6 ">
+            This barn house features a bold, modern design that effortlessly commands attention. Its sleek lines and unique architectural elements create a striking contrast with traditional structures. The combination of rustic charm and contemporary style makes it a standout in any landscape.
+          </p>
+          <button class="btn btn-primay bg-[#ABEF5F80]">View Details <i class="fa-solid fa-arrow-right -rotate-45 rounded-lg bg-[#ABEF5F] pl-1 px-1 py-1 "></i></button>
+        </div>
+      </div>
+    </div>
+     
+   </header>
+  
+</body>
+</html>
